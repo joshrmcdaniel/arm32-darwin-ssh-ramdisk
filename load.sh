@@ -4,6 +4,7 @@
 
 echo "**** SSH Ramdisk_Loader 2.0 ****"
 echo "made by @Ralph0045, patched version by meowcat454"
+echo "Ported to Linux by joshrmcdaniel"
 
 set -e
 
@@ -73,8 +74,6 @@ echo "Sending kernelcache..."
 ../resources/irecovery -f kernelcache
 echo "Booting device now..."
 ../resources/irecovery -c bootx
-
-#printf '/send devicetree\ndevicetree\n/send ramdisk\nramdisk\n/send kernelcache\nbootx\n' | ../resources/irecovery2 -s
 
 echo "Finished! You should see a verbose boot then the ramdisk logo."
 

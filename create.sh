@@ -190,7 +190,7 @@ if [ "$is_64" = "true" ]; then
     mv -v devicetree.img4 ../
     mkdir ramdisk_mountpoint
     dd if=/dev/zero of=./RestoreRamDisk.raw.dmg bs=1M count=100
-    /sbin/mkfs.hfsplus -v RestoreRamDisk ./RestoreRamDisk.dmg
+    /sbin/mkfs.hfsplus -v RestoreRamDisk ./RestoreRamDisk.raw.dmg
     sudo mount -o loop,rw ./RestoreRamDisk.raw.dmg ramdisk_mountpoint/
     tar -xvf ../../resources/iosbinpack.tar -C .
     cd iosbinpack64
