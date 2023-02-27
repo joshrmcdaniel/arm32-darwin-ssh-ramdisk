@@ -3,7 +3,7 @@
   - @Ralph0045
   -  /u/meowcat454
 
-This is a port to linux of the original tool [originally found on reddit](https://www.reddit.com/r/setupapp/comments/ub4ypc/how_to_mount_mnt2_on_ios_9_and_10/)<br>
+This is a port to linux of the original tool [found on reddit](https://www.reddit.com/r/setupapp/comments/ub4ypc/how_to_mount_mnt2_on_ios_9_and_10/)<br>
 Binaries have been compiled for linux, and `create.sh` has been modified to work with linux<br>
 Per my needs I only converted the 32-bit portion and tested successfully, **use 64-bit devices at your own risk**<br>
 Run with `sudo`
